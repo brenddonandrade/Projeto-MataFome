@@ -1,1 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    background: #031321;
+    font-family: consolas;
+}
+
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: greenyellow;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    font-size: 1.5rem;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+.menu a:hover {
+    color: #255784;
+    background: greenyellow;
+    box-shadow: 0 0 .625rem greenyellow, 0 0 2.5rem greenyellow, 0 0 5rem greenyellow;
+}
+
+.menu li{
+    float: left;
+}
 
